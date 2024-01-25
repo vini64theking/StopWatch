@@ -54,3 +54,8 @@ h1{
 #reset:hover{
     background-color: hsl(241, 70%, 40%);
 }
+@media screen and (max-width: 600px) {
+    #display {
+        font-size: 3rem; /* Adjust font size for smaller screens */
+    }
+}
